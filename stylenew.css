@@ -1,0 +1,42 @@
+body{
+    background-color:rgb(0, 155, 207);
+    width: 100%;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+#Cap_1 {
+    width: 400px;
+    margin: auto;
+    display: block;
+}
+
+.land {
+    fill: #CCCCCC;
+    fill-opacity: 1;
+    stroke: white;
+    stroke-opacity: 1;
+    stroke-width: 0.5;
+}
+
+.map{
+    width: 100%;
+}
+
+.map path{
+    fill:#ffffff ;
+    stroke: #000000;
+    stroke-width:1px ;
+    transition: fill 0.2s;
+}
+
+.map :hover{
+    fill: black;
+    
+}
+
+#IN-AN{
+    overflow: auto;
+}
